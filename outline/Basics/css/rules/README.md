@@ -9,15 +9,52 @@
 * max-height
 
 ## margin
-外边距。在有些情况，垂直方向的外间距会有重合的情况。
+外边距 改变元素的尺寸
+实线为可视尺寸-clientWidth
+虚线为占据尺寸-outerWidth
 
-```
-margin: 2px 3px 4px 5px; /* 上 右 下 左 */
-margin: 2px 5px;/* 上下 左右*/
-```
+普通元素 margin百分比值根据容器宽度计算
+绝对定位元素 第一个祖先元素宽度（relative/absolute/fixed）计算
 
+两端对齐
+ul margin-right:-20px
+
+等高对齐
+父元素overflow:hidden
+margin-bottom:-600px;
+padding-bottom:600px
+
+dom顺序
+div.left   div.left margin-left:-150px
+
+margin重叠
+1、相邻兄弟元素Margin重叠
+2、父元素和第一个/最后一个元素 等同于father同步
+3、空块状元素
 ## padding
 内边距
+常用，兼容性好，不激进（中规中矩）
+
+块状元素
+padding会影响元素尺寸
+padding不支持任何负值
+padding百分比根据宽度计算。
+1：1的百分比图片都是设置padding50%来搞定。
+
+内链元素
+padding会影响元素水平尺寸，
+垂直虽然占据占据空间，不过不影响尺寸。
+文字会换行
+![文字会换行](images/padding_inline.jpg)
+
+高宽是不相等的。
+需要设置font-size:0;
+规范中规范strut
+
+## vertical-align
+ 块状元素不起作用
+inline和inline-block
+table-cell
 
 ## display
 常见值：
@@ -33,6 +70,7 @@ margin: 2px 5px;/* 上下 左右*/
 * left
 * right
 * z-index
+* vertical-align
 
 ## 背景相关
 * backgroud-color
