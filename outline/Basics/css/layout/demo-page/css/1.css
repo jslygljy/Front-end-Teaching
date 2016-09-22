@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "微软雅黑";
+	background-color: #dedede;
+}
+/*头部*/
+header{
+	position: relative;
+	height: 60px;
+	background: #333;
+}
+header img{
+	padding-left: 20px;
+	height: 58px;
+}
+header ul{
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+header ul li{
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding: 20px 10px;
+	width: 60px;
+}
+header ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 12px;
+}
+header ul li:hover{
+	border-bottom: 1px solid red;
+	background-color: #474747;
+	border-radius: 3px;    /*圆角边框*/
+}
+
+/*主体*/
+article , aside{
+	background-color: white;
+	margin: 30px;
+	padding: 20px;
+}
+article h2{
+	padding: 5px 0;
+}
+article h3{
+	padding: 10px 0;
+	font-size: 16px;
+	color: #808080;
+}
+article a{
+	color: blue;
+}
+article a:hover{
+	color: red;
+}
+.author,.aTime{
+	line-height: 30px;
+	font-size: 12px;
+	color: #808080;
+}
+article p{
+	line-height: 20px;
+	text-indent: 2em;
+}
+article img{
+	padding: 15px 0;
+	
+}
+article ul li{
+	list-style-type: none;
+}
+article dl dd{
+	border: solid 1px #FFFFFF;
+}
+
+
+
+article ol {
+	padding: 20px 40px;
+}
+article table{
+	width: 100%;      	/*设置为与屏幕宽度一样*/
+	border-collapse: collapse;/*设置表格的边框被合并为一个单一的边框*/
+}
+article table tr th {
+	background-color: #333333;
+	color: white;
+}
+article table tr td{
+	border: solid 2px #cccccc;
+}
+article table .buttomTable{
+	background-color: #CCCCCC;
+}
+
+/*侧栏*/
+aside h4{
+	padding: 10px;
+	margin: 10px;
+	border-left: solid 4px #cccccc;
+}
+aside form{
+	
+}
+aside form div{
+	
+}
