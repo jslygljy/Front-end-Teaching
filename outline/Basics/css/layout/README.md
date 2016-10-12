@@ -38,8 +38,6 @@
 下面会介绍一些简单的布局的Demo，复杂的布局基本都可以通过简单的布局组合而来。
 
 
-## 布局框架
-* [kite.css](http://hiloki.github.io/kitecss/)
 * 栅格系统
 
 

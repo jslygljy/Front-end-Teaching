@@ -1,10 +1,10 @@
 # 做酷炫页面（HTML 5 + CSS 3）
-## HTML 5 8课时
-* 介绍 (1课时)
-* 新增的标签与属性 (1课时)
-* Web 存储 (1课时)
-* File API，地理位置 (1课时)
-* 画布 (1课时)
+## css深入理解
+* css深入理解padding
+* css深入理解margin
+* css深入理解z-index
+* css深入理解relative
+* css深入理解vertical-align
 * 视频，音频 (1课时)
 * 拖放 (1课时)
 * 其他新特性(1课时)
