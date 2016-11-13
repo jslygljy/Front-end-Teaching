@@ -9,10 +9,6 @@
 * max-height
 
 ## margin
-外边距 改变元素的尺寸
-实线为可视尺寸-clientWidth
-虚线为占据尺寸-outerWidth
-
 普通元素 margin百分比值根据容器宽度计算
 绝对定位元素 第一个祖先元素宽度（relative/absolute/fixed）计算
 
@@ -24,13 +20,6 @@ ul margin-right:-20px
 margin-bottom:-600px;
 padding-bottom:600px
 
-dom顺序
-div.left   div.left margin-left:-150px
-
-margin重叠
-1、相邻兄弟元素Margin重叠
-2、父元素和第一个/最后一个元素 等同于father同步
-3、空块状元素
 ## padding
 内边距
 常用，兼容性好，不激进（中规中矩）
@@ -47,14 +36,9 @@ padding会影响元素水平尺寸，
 文字会换行
 ![文字会换行](images/padding_inline.jpg)
 
-高宽是不相等的。
-需要设置font-size:0;
-规范中规范strut
-
 ## vertical-align
- 块状元素不起作用
+ 行内元素不起作用
 inline和inline-block
-table-cell
 
 ## display
 常见值：
@@ -62,15 +46,6 @@ table-cell
 * inline
 * inline-block
 * block
-
-## 定位相关
-* position
-* top
-* bottom
-* left
-* right
-* z-index
-* vertical-align
 
 ## 背景相关
 * backgroud-color
@@ -85,7 +60,7 @@ table-cell
 * border-radius 圆角
 
 ## 鼠标相关
-* cursor。常用值
+* cursor 常用值
   * pointer: 手形
   * default: 默认值：箭头
   * none: 无
@@ -106,16 +81,12 @@ table-cell
 * list-style-type 列表项所使用的预设标记
 * list-style-postion
 
-## 表格相关
-* border-collapse 表格的行和单元格的边是合并还是独立。
-  * separate：边框独立
-  * collapse：相邻边被合并
 
 ## 其他
 * opacity 透明度
 
 ## 常用单位
-尺寸单位有： px，em，rem，百分比。
+尺寸单位有： px，em，rem，deg,百分比。
 
 ## 颜色值
 * 颜色名称: white, black, red ...

@@ -1,4 +1,11 @@
 # 样式的继承和层叠 [demo](demo/demo.html)
+
+### 样式选择器
+* #idName id选择器  .className  class选择器  
+* 后代选择器  #idName .className 也可以写成 #idName > .className
+* 元素选择器  p,span,label,div 也可以写成  div.className  div p
+* 属性选择器  input[type="button"]  `*[title]`
+
 ## 样式的继承
 CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。    
 需要注意的是
@@ -31,7 +38,18 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 	background-image
 	background-postion
 	background-repeat
+* 链接
+	a:link - 普通的、未被访问的链接
+	a:visited - 用户已访问的链接
+	a:hover - 鼠标指针位于链接的上方
+	a:active - 链接被点击的时刻
+* 列表
+	list-style-type : square;
+	list-style-image
+
 * 定位
+	float
+	display
 	position
 	z-index
 	top
@@ -51,10 +69,12 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 	overflow
 	display
 	visbility
-* margin 外编剧
-* padding 内边距
-* outlines 轮廓
-* boder 边框
+* 盒子模型
+	margin 外编剧
+	padding 内边距
+  border 边框
+  boder 边框
+![盒子模型](box.png)
 
 ## 层叠
 层叠，是一种样式在文档层次中逐层叠加的过程。目的是让浏览器面对某个标签特定属性值的多个来源，确定最终使用哪个值。

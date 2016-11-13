@@ -1,5 +1,5 @@
 # 布局 [demo](demo/layout.html)
-在我看来，布局就是页面上元素放置的位置，以及元素的大小。    
+css布局指的就是页面上元素放置的位置，以及元素的大小。    
 
 因此，布局主要包括如下的内容：
 对于单个元素在父元素中的    
@@ -39,11 +39,3 @@
 
 
 * 栅格系统
-
-
-## 拓展阅读
-* [学习CSS布局](http://zh.learnlayout.com/)
-* [CSS 布局模块](http://www.w3cplus.com/css3/css3-layout-modules.html)
-* [The Anti-hero of CSS Layout - "display:table"](http://colintoh.com/blog/display-table-anti-hero)
-* [Using Flexbox: Mixing Old and New for the Best Browser Support](https://css-tricks.com/using-flexbox/)
-* [Layout Secret Weapon #1: The CSS Table Property](http://www.sitepoint.com/solving-layout-problems-css-table-property/)
