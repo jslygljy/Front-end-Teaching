@@ -1,6 +1,3 @@
-# [BOM](http://w3school.com.cn/jsref/index.asp)
-浏览器提供的一些方法。
-
 ## 常用对象
 * navigator 有关浏览器的信息
   * userAgent 用户代理的信息

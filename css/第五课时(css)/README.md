@@ -30,13 +30,12 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 	text-align
 	text-overflow
 	vertical-align
-	text-aline
 	等等
 * 背景
 	background
 	background-color
 	background-image
-	background-postion
+	background-position
 	background-repeat
 * 链接
 	a:link - 普通的、未被访问的链接
@@ -73,7 +72,6 @@ CSS样式表继承指的是，特定的CSS属性向下传递到子孙元素。
 	margin 外编剧
 	padding 内边距
   border 边框
-  boder 边框
 ![盒子模型](box.png)
 
 ## 层叠

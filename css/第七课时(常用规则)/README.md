@@ -1,24 +1,22 @@
 # 常用样式 [demo](demo/demo.html) [文档](http://css.doyoe.com/)
 
-## 尺寸相关
-* width 宽
-* min-width
-* max-width
-* height 高
-* min-height
-* max-height
 
-## margin
-普通元素 margin百分比值根据容器宽度计算
-绝对定位元素 第一个祖先元素宽度（relative/absolute/fixed）计算
+## pc网站中间居中
+* margin:xxpx auto;
 
-两端对齐
-ul margin-right:-20px
+## 1px 图片无限重复
+* 可以节省网络带宽，加快加载速度
+* 方便实现自适应
 
-等高对齐
-父元素overflow:hidden
-margin-bottom:-600px;
-padding-bottom:600px
+## 父元素透明，子元素不透明
+* rgba(255, 0, 0, .5)
+## 绝对定位垂直居中
+* 宽高已知，left,top:50%; margin:﹣高度一半 0px 0px -宽度一半
+## 导航中竖线
+* 文字“丨”
+* 右边框
+* 图片
+* 用选择器把最后一个Li元素去掉
 
 ## padding
 内边距
@@ -28,16 +26,9 @@ padding-bottom:600px
 padding会影响元素尺寸
 padding不支持任何负值
 padding百分比根据宽度计算。
-1：1的百分比图片都是设置padding50%来搞定。
-
-内链元素
-padding会影响元素水平尺寸，
-垂直虽然占据占据空间，不过不影响尺寸。
-文字会换行
-![文字会换行](images/padding_inline.jpg)
 
 ## vertical-align
- 行内元素不起作用
+行内元素不起作用
 inline和inline-block
 
 ## display
@@ -46,14 +37,6 @@ inline和inline-block
 * inline
 * inline-block
 * block
-
-## 背景相关
-* backgroud-color
-* background-image
-* background-repeat
-* background-position
-* background-size
-* background
 
 ## 边框
 * border
@@ -68,14 +51,6 @@ inline和inline-block
   * move: 移动: 十字
   * wait: 等待： loading
 
-## 文字相关
-* font-faimly 字体
-* font-size 字号大小
-* font-weight 字的粗细
-* line-height 行高
-* color 字的颜色
-* font-style
-* text-decoration
 
 ## 列表(ul 和 ol)相关
 * list-style-type 列表项所使用的预设标记

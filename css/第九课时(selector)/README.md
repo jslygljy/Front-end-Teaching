@@ -86,12 +86,12 @@ h1 em {color:red;}
 ## :nth选择器
 CSS3选择器最新部分，有人也称这种选择器为CSS3结构类
 
-* :fist-child选择某个元素的第一个子元素；
+* :first-child选择某个元素的第一个子元素；
 * :last-child选择某个元素的最后一个子元素；
-* :nth-child()选择某个元素的一个或多个特定的子元素；
+* :nth-child(0,1,2)选择某个元素的一个或多个特定的子元素；
 * :nth-last-child()选择某个元素的一个或多个特定的子元素，从这个元素的最后一个子元素开始算；
-* :even
-* :odd
+* :nth-child(even)
+* :onth-child(dd)
 * :nth-of-type()选择指定的元素；
 * :nth-last-of-type()选择指定的元素，从元素的最后一个开始计算；
 * :first-of-type选择一个上级元素下的第一个同类子元素；
@@ -156,13 +156,3 @@ CSS选择器的读取顺序是从右向左。
 * 类名不为`not-normal-input`的文本框(`<input type="text">`)元素的获得焦点状态
 * 在父元素中倒数第2个`a`元素
 * 在父元素中第3个整数倍，但不包括0，3的`a`元素
-
-## 参考
-* http://www.w3schools.com/css/css_selectors.asp
-* [《图解CSS3：核心技术与案例实战》](http://www.w3cplus.com/book-comment.html)
-* [选择器浏览器兼容性](http://kimblim.dk/css-tests/selectors/)
-
-## 拓展阅读
-* [30个你必须记住的CSS选择符](http://yanhaijing.com/css/2014/01/04/the-30-css-selectors-you-must-memorize/)
-* [The Current Generation of CSS3 Selectors](http://www.sitepoint.com/current-generation-css3-selectors/)
-* [The Future Generation of CSS Selectors: Level 4](http://www.sitepoint.com/future-generation-css-selectors-level-4)
