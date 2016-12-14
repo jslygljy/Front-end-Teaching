@@ -5,8 +5,8 @@
 下面的名称可以作为元素的类名。
 
 ### 布局名称
-* 头部 head
-* 尾部 foot
+* 头部 header
+* 尾部 footer
 * 主栏 main
 * 侧栏 side
 * 盒容器 wrap
@@ -28,6 +28,7 @@
 * 标志 log
 * 搜索 search
 * 幻灯 slide
+* 轮播图 banner
 * 提示 tip
 * 帮助 help
 * 新闻 news

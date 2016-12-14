@@ -15,6 +15,10 @@
   </body>
 </html>
 ```
+* 用js来写Html
+  document.write("<h1>This is a heading</h1>");
+  document.write("<p>This is a paragraph</p>");
+
 * 从上面的 HTML 中：
   <html> 节点没有父节点；它是根节点
   <head> 和 <body> 的父节点是 <html> 节点
@@ -39,11 +43,19 @@
 * getElementsByTagName 返回指定标签名的元素
   document.getElementsByTagName("p");
 
+* 用js改变html
+  x=document.getElementById("demo")  //查找元素
+  x.innerHTML="Hello JavaScript";    //改变内容
+
 * getElementsByClassName 返回指定样式名的元素
   document.getElementsByClassName("classname");
 
 * style  修改样式
-  例子 document.getElementById("p2").style.color="blue";
+  x=document.getElementById("demo")  //找到元素
+  x.style.color="#ff0000";           //改变样式
+  
+* 验证
+  if isNaN(x) {alert("Not Numeric")};
 
 * appendChild(node) 新增子节点
   var para=document.createElement("p"); //新建一个P标签
