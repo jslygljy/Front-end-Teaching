@@ -1,0 +1,20 @@
+## 数组基本操作
+  * valueOf()，toString()
+  * push()
+  * pop()
+  * join()
+  * concat()
+  * shift()
+  * unshift()
+  * reverse()
+  * slice()
+  * splice()
+  * sort()
+  * map()
+  * forEach()
+  * filter()
+  * some()，every()
+  * reduce()，reduceRight()
+  * indexOf()，lastIndexOf()
+
+参考资料：http://javascript.ruanyifeng.com/stdlib/array.html#toc3
